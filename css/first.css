@@ -13,6 +13,11 @@ body {
   margin: auto;
   overflow: hidden;
 }
+.container-3 {
+  width: 100%;
+  margin: auto;
+}
+
 ul {
   padding: 0%;
   margin: 0%;
@@ -67,6 +72,7 @@ header a:hover {
   background: url(/css/cover5.jpg) no-repeat 0 -4300px;
   text-align: center;
   color: rgb(19, 86, 209);
+  border-bottom: rgb(19, 86, 209) 5px solid;
 }
 
 #showcase h1 {
@@ -80,10 +86,22 @@ header a:hover {
 }
 
 #boxes {
+  display: inline-block;
   margin-top: 20px;
+  text-align: center;
 }
 
 #boxes .box {
-  width: -3330%;
-  padding: 10px;
+  float: left;
+  text-align: center;
+  margin-left: 10px;
+  width: 30%;
+  padding: 15px;
+}
+
+#boxes .box img {
+  width: 250px;
+  height: 250px;
+  padding: 5px;
+  border: 2px solid rgb(19, 86, 209);
 }
