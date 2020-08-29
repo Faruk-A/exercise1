@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+.container-1 {
+  overflow: hidden;
+}
+.container-2 {
+  width: 80%;
+  margin: 0%;
+  overflow: hidden;
+}
+ul {
+  padding: 0%;
+  margin: 0%;
+}
+
+header .section-1 {
+  color: #fff;
+  min-height: 30%;
+  background: rgb(1, 24, 32);
+  border-bottom: rgb(19, 86, 209) 5px solid;
+}
+
+header a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 30px 40px 0px 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding img {
+  margin: 0%;
+  width: 130px;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+header .current a {
+  color: rgb(19, 86, 209);
+  font-weight: bold;
+}
+
+header a:hover {
+  color: rgb(19, 86, 209);
+  font-weight: bold;
+}
+
+/* #showcase {
+  min-height: 400px;
+} */
