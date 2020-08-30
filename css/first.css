@@ -4,6 +4,7 @@ body {
   line-height: 1.5;
   padding: 0;
   margin: 0;
+  background-image: linear-gradient(rgb(1, 24, 32), #fff);
 }
 .container-1 {
   overflow: hidden;
@@ -14,8 +15,10 @@ body {
   overflow: hidden;
 }
 .container-3 {
+  overflow: hidden;
   width: 100%;
   margin: auto;
+  float: left;
 }
 
 ul {
@@ -98,6 +101,7 @@ header a:hover {
 #boxes .box {
   float: left;
   text-align: center;
+  margin-top: 20px;
   margin-left: 10px;
   width: 30%;
   padding: 15px;
@@ -151,4 +155,27 @@ footer #copyright {
   text-align: center;
   color: rgb(1, 24, 32);
   height: 25px;
+}
+
+/* #feedback {
+  float: left;
+  background-color: #fff;
+  color: rgb(1, 24, 32);
+  border: 2px solid rgb(19, 86, 209);
+  height: 143px;
+  width: 40px;
+  left: 98.5%;
+  top: 299px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 2100000000;
+  background: transparent;
+} */
+
+#feedback h3 {
+  transform: rotate(-90deg);
+}
+
+.badge {
+  transform: translate(70px, -250px);
 }
