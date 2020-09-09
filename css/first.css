@@ -88,6 +88,13 @@ header a:hover {
   font-weight: bold;
 }
 
+main {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
 #showcase {
   position: sticky;
   min-height: 300px;
@@ -264,6 +271,11 @@ header a:hover {
   color: rgb(133, 7, 7);
 }
 
+.fsec1 {
+  overflow: hidden;
+  display: inline;
+}
+
 footer #branding-2,
 nav {
   float: left;
@@ -277,7 +289,7 @@ footer #branding-2 img {
 
 footer li {
   display: inline-block;
-  margin-top: 7px;
+  margin-top: 10px;
 }
 
 footer li a {
